@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.gyp/
+.gyp-mac/
+.gyp-win/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+config/settings/local.py
+
+# If you're using MySQL or PostgreSQL, ignore the database dumps
+*.sql
+
+# Ignore secret keys
+.env
+*.env
+secrets.json
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled Python files
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore migrations cache
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# Ignore cache and session files
+cache/
+session/
+
+# Ignore logs
+logs/
+*.log
+*.out
+
+# Ignore node_modules (if using JavaScript frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore compiled TypeScript
+*.tsbuildinfo
+
+# Ignore coverage reports
+coverage/
+*.cover
+.hypothesis/
+*.hypothesis/
+
+# Ignore PyCharm and VS Code settings
+.idea/
+.vscode/
+
+# Ignore Gunicorn and Celery logs
+gunicorn.log
+gunicorn-access.log
+gunicorn-error.log
+celerybeat-schedule
+celerybeat.pid
+
+# Ignore Docker
+docker-compose.override.yml
+.dockerignore
