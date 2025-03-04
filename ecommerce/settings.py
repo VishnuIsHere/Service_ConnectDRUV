@@ -195,8 +195,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "itsvishnupadmanabhan@gmail.com"  # Fetch from environment variable
-EMAIL_HOST_PASSWORD ="gwvt rwxf nfoa jrap" 
+EMAIL_HOST_USER = ""  # Fetch from environment variable
+EMAIL_HOST_PASSWORD ="" 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER 
 
 
@@ -204,5 +204,5 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
 
-RAZORPAY_KEY_ID = "rzp_test_YCsUvPbf8meYOm"
-RAZORPAY_KEY_SECRET = "mb08VuQorW0grawWPEwCsROo"
+RAZORPAY_KEY_ID = ""
+RAZORPAY_KEY_SECRET = ""
